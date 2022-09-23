@@ -8,10 +8,21 @@
     <title>Vücut Kitle Endeksi</title>
 </head>
 <body>
-    
-   
+    <div class="container">
+        <h1>BODY MASS <span>INDEX</span></h1>
 
+        <input type="number" id="input1" placeholder="Kilonuzu giriniz">
+        <input type="number" id="input2" placeholder="Boyunuzu giriniz">
 
+        <button id="button" onclick="hesapla()">Hesapla</button>
+
+        <div id="sonuc"></div>
+
+        <div id="imgcontainer">
+            <img src="vki.png" alt="vki" id="img">
+            <div id="çerçeve"></div>
+        </div>                
+    </div>
     <script src="javaScript.js"></script>    
 </body>
 </html>
