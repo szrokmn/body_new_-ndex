@@ -24,3 +24,47 @@ body {
 span{
     color:#A6D1E6;
 }
+#input1, #input2{  
+    width: 100px;  
+    margin: 20px; 
+ 
+ }
+ input:focus{
+    outline: none;
+ }
+ #button{    
+     display: block;
+     margin: 0 auto;
+     background-color: #0096FF;
+     border: none;
+     border-radius: 10px;
+     padding: 4px;
+     color: inherit;
+ }
+ #sonuc{    
+     width: 140px;
+     height: 20px;
+     margin:20px auto;
+     background-color: #0096FF;
+     border-radius: 10px; 
+     font-size: 14px; 
+     padding-top: 2px; 
+ }
+ #img{
+     width: 350px;
+     border-radius: 10px;
+ }
+ #imgcontainer{
+     position: relative;
+ }
+ #çerçeve{
+     border: 2px solid #5800FF;    
+     width: 51px;
+     height: 144px;
+     position: absolute;
+     top:36px;      
+     visibility: hidden;
+     border-radius: 10px 10px 0 0;
+     box-shadow: 5px 2px 8px gray;
+     
+ }
